@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    box-sizing: border-box;
+}
+body{
+    font: size 1rem; 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    ;
+    line-height: 1.6;
+    color: black;
+    text-align: center;
+    padding: 3rem 9rem;
+}
+
+#profile,#about,#qualification,#skills,#hobbies,#contact{
+    margin: 1.5rem;
+    padding: 1.5rem;
+}
+
+#about h1,
+#skills h1,
+#hobbies h1,
+#contact h1{
+  font-size: 2rem;
+  letter-spacing: 3px;
+  color: teal;
+}
+.profile_heading{
+    color: crimson;
+    font-size: 2rem;
+}
+.profile_designation{
+    color: blue;
+    font-size: 1.5rem;
+}
+.profile_photo{
+    height: 20rem;
+    width: auto
+    
+}
+
+#about p{
+    font-size: 1.2rem;
+    margin: 0.5rem;
+}
+table{
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+    border-collapse: collapse;
+    
+}
+table,td,th{
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+th,td{
+    padding: 15px;
+    font-weight: bold;
+}
+.table{
+    background-color: orangered;
+    color: white;
+}
+tr:nth-child(even){
+    background-color: violet;
+    color: white;
+}
+#skills  ul{
+    list-style-type: none;
+    padding: 0.5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+
+#skills li{
+    display: inline;
+    margin: 1.5rem;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+#skills li:hover{
+    cursor: pointer;
+    background: pink;
+
+}
+.hobby{
+    display: inline-block;
+    margin: 1rem;
+}
+.hobby img{
+    height: 6cm;
+    width: 8cm;
+    display: block;
+}
+#hobbies h5:hover{
+    cursor: pointer;
+    background: black;
+}
+.hobby h5{
+    font-size: 1rem;
+    color: red;
+}
+#contact h3{
+    color: #1d1b1b;
+    margin: 1rem 1.5rem;
+}
+.profile_photo{
+    border-style: groove;
+
+}
+body{
+    background:url(background.jpg)no-repeat center fixed;
+}
